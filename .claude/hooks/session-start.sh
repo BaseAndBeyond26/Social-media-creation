@@ -9,7 +9,8 @@ fi
 
 cd "$CLAUDE_PROJECT_DIR"
 
-npm install --no-audit --no-fund
+# npm ci never rewrites package-lock.json (npm install strips its libc fields here).
+npm ci --no-audit --no-fund
 
 # The cutting tools pass `-/filter_complex`, which needs FFmpeg 7 or newer.
 ff_major=$(ffmpeg -version 2>/dev/null | head -1 | sed -E 's/^ffmpeg version n?([0-9]+).*/\1/' || echo 0)

@@ -124,5 +124,8 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - The send-file tool fails on files of about 87 MB. Also send a CRF 20 share copy
   (about 30 MB).
 - Make the first frame meaningful: hook text must be visible at 0.0s.
+- On-screen timers always show real elapsed time. When cuts remove footage, the
+  timer jumps forward to the true time. Mark start/stop with a clap, a spoken
+  cue, a described action, or timestamps.
 - Style references from other accounts go into `style-library/` as new packs.
   Capture tokens, motion and copy patterns, never their media, logos or exact wording.

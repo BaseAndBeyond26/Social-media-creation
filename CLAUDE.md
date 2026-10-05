@@ -135,6 +135,12 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Skill routing: editing footage into a reel always goes through `short-form-edit`
   (and the kit pipeline). `social`, `copywriting` and `marketing-psychology` supply
   hooks, on-screen lines, captions, hashtags and content plans that feed that edit.
+- `impeccable` (pbakaus/impeccable) is for websites, landing pages and static designs
+  (e.g. baseandbeyond.uk, covers, carousels) and as a critique pass on reel graphics;
+  reel building stays with the kit skills. Its brand context comes from
+  `.claude/product-marketing.md`; don't create a separate PRODUCT.md without asking.
+  The installed copy is the repo's Claude variant (`.claude/skills/impeccable`), not
+  the Codex variant `npx skills add` picks, so don't run `npx skills update` on it.
 - New skills from skills.sh (via `find-skills`): read the whole SKILL.md first,
   get the owner's approval, then install project-level, never `-g`, because cloud
   machines are wiped: `npx skills add <owner/repo> --skill <name> --agent

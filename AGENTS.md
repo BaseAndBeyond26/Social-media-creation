@@ -127,6 +127,9 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - On-screen timers always show real elapsed time. When cuts remove footage, the
   timer jumps forward to the true time. Mark start/stop with a clap, a spoken
   cue, a described action, or timestamps.
+- Skill routing: editing footage into a reel always goes through `short-form-edit`
+  (and the kit pipeline). `social`, `copywriting` and `marketing-psychology` supply
+  hooks, on-screen lines, captions, hashtags and content plans that feed that edit.
 - New skills from skills.sh (via `find-skills`): read the whole SKILL.md first,
   get the owner's approval, then install project-level, never `-g`, because cloud
   machines are wiped: `npx skills add <owner/repo> --skill <name> --agent

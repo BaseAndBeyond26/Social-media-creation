@@ -7,7 +7,9 @@
 and we'll fit a premium roof tent so you can explore the National Park your way.
 **Status:** Pre-launch. Bookings open soon; first available date **25 March 2027**
 (Easter holidays). Content now builds an audience for launch.
-**Business model:** Hire only (no tent sales). Customers book online (Booqable, with
+**Business model:** Hire only for now. *Future:* aiming to become a Moby Mountain
+reseller and sell tents. Don't mention sales or a Moby partnership in content until the
+owner confirms it's agreed. Customers book online (Booqable, with
 prices shown on the booking form), then visit our unit to have the tent and roof
 bars fitted and pick up extras.
 **Product line:**
@@ -73,10 +75,11 @@ and DMs here as they arrive.
   and implying a TentBox or Moby partnership unless one exists.
 
 ## Content Guardrails
-- **Never imply customers can wild camp or sleep anywhere.** In England (outside
-  Dartmoor) wild camping generally needs landowner permission, and many Lake District
-  car parks don't allow overnight stays. Show campsites and permitted sites, and frame
-  "spots" responsibly.
+- **Overnight stays: a happy balance.** Wild camping and overnight parking are part of
+  the Lakes adventure and generally tolerated, but don't actively promote them.
+  Don't discourage them either. When a post shows an overnight spot, the caption should
+  advise checking locations carefully, respecting "no overnight parking" signs, and
+  asking the landowner's permission if unsure. Pair it with the leave-no-trace message.
 - No fake reviews or invented stats while pre-launch. Don't claim "most popular" or
   "best-rated" until it's true.
 - "England's most beautiful national park" is fine as an opinion ("arguably").
@@ -110,3 +113,4 @@ footage: kit, fitting demos and trip footage.
 
 ## Changelog
 - 2026-10-05: v1 created from the owner's answers.
+- 2026-10-05: v1.1 balanced overnight-stay guidance; future Moby reseller plan noted (unconfirmed).

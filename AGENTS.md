@@ -114,7 +114,9 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Business: Base & Beyond (@baseandbeyondltd), roof tent hire at Setmurthy,
   Bassenthwaite Lake, Lake District. Pre-launch; bookings open 25 March 2027. Read
   `.claude/product-marketing.md` (audience, offer, voice, guardrails) before any copy.
-  Never imply customers can wild camp or sleep anywhere.
+  Overnight stays: don't promote or discourage wild camping; captions advise checking
+  locations, respecting no-overnight signs, and asking landowners if unsure.
+  Possible future Moby Mountain reselling: say nothing until the owner confirms.
 - Default deliverable is a 1080x1920 Instagram Reel with natural sound only; the owner
   adds trending audio in Instagram. Default CTA "Follow for more". Show TentBox and Moby
   branding as filmed and never imply a partnership.

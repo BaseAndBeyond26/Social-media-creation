@@ -101,3 +101,28 @@ disabled; synthetic input must remain inside the virtual browser.
 
 For short-form edits, read `docs/SHORT-FORM.md` and use the plan and footage
 validators. Structural checks supplement rendered video and audio review.
+
+## Base & Beyond studio notes
+
+Standing preferences learned in earlier sessions. Update this section when they change.
+
+- Transcribe locally with `python3 scripts/transcribe-local-whisper.py <file>
+  --model medium.en`; it writes the ElevenLabs-shaped JSON the cutting tools read.
+  Its filler prompt can invent "um/hmm" on clips with no speech; check the audio.
+- Cloud sessions run `.claude/hooks/session-start.sh` (npm ci, FFmpeg 7+,
+  faster-whisper + medium.en, render browser). The cut tools need FFmpeg 7+.
+- Business: rooftop-tent hire/sales. Default deliverable is a 1080x1920 Instagram
+  Reel with natural sound only; the owner adds trending audio in Instagram.
+  Default CTA "Follow for more". Show TentBox branding as filmed and never imply
+  a partnership.
+- Clips without narration: tell the story with on-screen text (Anton headlines,
+  Caveat script, tent orange #ff6b1f, warm white #fff8ee) in the top safe zone.
+  reel-01 "Bedroom with a view" established this house style.
+- Check vehicle direction in every driving shot. Footage filmed while reversing
+  should be played in reverse so the car moves forward.
+- Flag legible number plates and ask before publishing them.
+- The send-file tool fails on files of about 87 MB. Also send a CRF 20 share copy
+  (about 30 MB).
+- Make the first frame meaningful: hook text must be visible at 0.0s.
+- Style references from other accounts go into `style-library/` as new packs.
+  Capture tokens, motion and copy patterns, never their media, logos or exact wording.

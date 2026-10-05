@@ -127,5 +127,9 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - On-screen timers always show real elapsed time. When cuts remove footage, the
   timer jumps forward to the true time. Mark start/stop with a clap, a spoken
   cue, a described action, or timestamps.
+- New skills from skills.sh (via `find-skills`): read the whole SKILL.md first,
+  get the owner's approval, then install project-level, never `-g`, because cloud
+  machines are wiped: `npx skills add <owner/repo> --skill <name> --agent
+  claude-code --copy -y`, then `npm run sync:skills` and `npm run check`.
 - Style references from other accounts go into `style-library/` as new packs.
   Capture tokens, motion and copy patterns, never their media, logos or exact wording.

@@ -111,10 +111,13 @@ Standing preferences learned in earlier sessions. Update this section when they 
   Its filler prompt can invent "um/hmm" on clips with no speech; check the audio.
 - Cloud sessions run `.claude/hooks/session-start.sh` (npm ci, FFmpeg 7+,
   faster-whisper + medium.en, render browser). The cut tools need FFmpeg 7+.
-- Business: rooftop-tent hire/sales. Default deliverable is a 1080x1920 Instagram
-  Reel with natural sound only; the owner adds trending audio in Instagram.
-  Default CTA "Follow for more". Show TentBox branding as filmed and never imply
-  a partnership.
+- Business: Base & Beyond (@baseandbeyondltd), roof tent hire at Setmurthy,
+  Bassenthwaite Lake, Lake District. Pre-launch; bookings open 25 March 2027. Read
+  `.claude/product-marketing.md` (audience, offer, voice, guardrails) before any copy.
+  Never imply customers can wild camp or sleep anywhere.
+- Default deliverable is a 1080x1920 Instagram Reel with natural sound only; the owner
+  adds trending audio in Instagram. Default CTA "Follow for more". Show TentBox and Moby
+  branding as filmed and never imply a partnership.
 - Clips without narration: tell the story with on-screen text (Anton headlines,
   Caveat script, tent orange #ff6b1f, warm white #fff8ee) in the top safe zone.
   reel-01 "Bedroom with a view" established this house style.

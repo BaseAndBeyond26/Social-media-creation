@@ -129,6 +129,10 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - The send-file tool fails on files of about 87 MB. Also send a CRF 20 share copy
   (about 30 MB).
 - Make the first frame meaningful: hook text must be visible at 0.0s.
+- On-screen copy: avoid self-answered questions ("That box? It's...") and "No X. No Y."
+  lists. Use white text over the orange tent interior (orange text disappears there).
+  Pre-launch end card: BASE & BEYOND, "Roof tent hire · Bassenthwaite, Lake District",
+  "BOOKINGS OPEN 25.03.27", "Follow to be first to book" (reel-02).
 - On-screen timers always show real elapsed time. When cuts remove footage, the
   timer jumps forward to the true time. Mark start/stop with a clap, a spoken
   cue, a described action, or timestamps.

@@ -129,6 +129,10 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - The send-file tool fails on files of about 87 MB. Also send a CRF 20 share copy
   (about 30 MB).
 - Make the first frame meaningful: hook text must be visible at 0.0s.
+- Check every frame of an end-card build, not just the last one: panels and boxes
+  must animate in with their text. Phone footage in shade often needs a gentle lift
+  (reel-02 "option B": eq gamma 1.18, brightness +0.035, saturation x1.32, warm
+  colorbalance); compare clip brightness and offer a side-by-side before full renders.
 - On-screen copy: avoid self-answered questions ("That box? It's...") and "No X. No Y."
   lists. Use white text over the orange tent interior (orange text disappears there).
   Brand slogan: "Rent | Roam | Return" (straight-line separators). End card (reel-02,

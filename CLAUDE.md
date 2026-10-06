@@ -126,8 +126,8 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Check vehicle direction in every driving shot. Footage filmed while reversing
   should be played in reverse so the car moves forward.
 - Flag legible number plates and ask before publishing them.
-- The send-file tool fails on files of about 87 MB. Also send a CRF 20 share copy
-  (about 30 MB).
+- The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
+  for a 30s reel) and check its size before sending.
 - Make the first frame meaningful: hook text must be visible at 0.0s.
 - Check every frame of an end-card build, not just the last one: panels and boxes
   must animate in with their text. Phone footage in shade often needs a gentle lift

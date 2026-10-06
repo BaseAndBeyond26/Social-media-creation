@@ -131,8 +131,9 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Make the first frame meaningful: hook text must be visible at 0.0s.
 - On-screen copy: avoid self-answered questions ("That box? It's...") and "No X. No Y."
   lists. Use white text over the orange tent interior (orange text disappears there).
-  Pre-launch end card: BASE & BEYOND, "Roof tent hire · Bassenthwaite, Lake District",
-  "BOOKINGS OPEN 25.03.27", "Follow to be first to book" (reel-02).
+  Brand slogan: "Rent | Roam | Return" (straight-line separators). End card (reel-02,
+  owner-approved): "BASE & BEYOND" with a slightly smaller "&", the slogan, "Bookings
+  opening soon.", "Follow to be the first to know". Keep end cards simple.
 - On-screen timers always show real elapsed time. When cuts remove footage, the
   timer jumps forward to the true time. Mark start/stop with a clap, a spoken
   cue, a described action, or timestamps.

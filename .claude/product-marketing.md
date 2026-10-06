@@ -28,6 +28,11 @@ inside the **Lake District National Park** (a UNESCO World Heritage Site).
 The location is our headline selling point: push it in the bio, captions and posts.
 **No delivery:** customers collect from and return to our unit.
 
+## Brand Name & Slogan
+- **Name:** Base & Beyond. In graphics, set the "&" slightly smaller than the words.
+- **Slogan:** **Rent | Roam | Return**. Separate the three words with a straight line "|".
+- Pre-launch end-card wording: "Bookings opening soon." and "Follow to be the first to know".
+
 ## Target Audience
 - **Who:** couples and families, roughly 25-45.
 - Mostly **first-timers**, plus **try-before-you-buy** people weighing up a roof tent purchase.
@@ -113,4 +118,5 @@ footage: kit, fitting demos and trip footage.
 
 ## Changelog
 - 2026-10-05: v1 created from the owner's answers.
+- 2026-10-06: v1.2 added slogan "Rent | Roam | Return" and brand name styling.
 - 2026-10-05: v1.1 balanced overnight-stay guidance; future Moby reseller plan noted (unconfirmed).

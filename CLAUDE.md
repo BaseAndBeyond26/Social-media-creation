@@ -156,3 +156,9 @@ Standing preferences learned in earlier sessions. Update this section when they 
   claude-code --copy -y`, then `npm run sync:skills` and `npm run check`.
 - Style references from other accounts go into `style-library/` as new packs.
   Capture tokens, motion and copy patterns, never their media, logos or exact wording.
+- Source footage lives in the owner's public Google Drive folder "Claude Edits"
+  (https://drive.google.com/drive/folders/1QLv7f6Nl26BNHvXAznj2ViFlzbqzcv49).
+  For a new reel use only the loose photos and videos at its top level; ignore
+  subfolders (archived past reels, named by reel title) unless the owner names one.
+  List it via `https://drive.google.com/embeddedfolderview?id=<id>`; download into
+  the reel's project folder and keep originals untouched.

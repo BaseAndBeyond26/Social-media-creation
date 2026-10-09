@@ -128,7 +128,7 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Flag legible number plates and ask before publishing them.
 - The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
   for a 30s reel) and check its size before sending; raise the CRF if it's over (reel-03,
-  40s of detailed landscape, needed CRF 24 for 27.6 MB).
+  40s of detailed landscape, needed CRF 24 for 27.6 MB; the 52s v3 needed CRF 25 for 28.4 MiB).
 - Make the first frame meaningful: hook text must be visible at 0.0s.
 - Check every frame of an end-card build, not just the last one: panels and boxes
   must animate in with their text. Phone footage in shade often needs a gentle lift
@@ -138,7 +138,10 @@ Standing preferences learned in earlier sessions. Update this section when they 
   lists. Use white text over the orange tent interior (orange text disappears there).
   Brand slogan: "Rent | Roam | Return" (straight-line separators). End card (reel-02,
   owner-approved): "BASE & BEYOND" with a slightly smaller "&", the slogan, "Bookings
-  opening soon.", "Follow to be the first to know". Keep end cards simple.
+  opening soon.", "Follow to be the first to know" (set in a steady serif such as Lora, not
+  Caveat script: owner asked for a more serious CTA in reel-03). Keep end cards simple.
+- Caption reading time: hold each on-screen line at least ~0.4s per word + 1s (about
+  3-4s for 6-9 words); reel-03 at 2.5-2.8s for 9-10 words was too fast to read.
 - On-screen timers always show real elapsed time. When cuts remove footage, the
   timer jumps forward to the true time. Mark start/stop with a clap, a spoken
   cue, a described action, or timestamps.

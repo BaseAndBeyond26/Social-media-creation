@@ -166,3 +166,7 @@ Standing preferences learned in earlier sessions. Update this section when they 
   subfolders (archived past reels, named by reel title) unless the owner names one.
   List it via `https://drive.google.com/embeddedfolderview?id=<id>`; download into
   the reel's project folder and keep originals untouched.
+- The Google Drive connector (when attached, verified 9 Oct 2026) reads the owner's Drive
+  with write access to "Claude edits". Use it for listing, metadata, checks and (with the
+  owner's OK) organising; `search_files` with `parentId = '<id>'` pages in small batches.
+  It returns downloads as base64 in the chat, so fetch media via the public link instead.

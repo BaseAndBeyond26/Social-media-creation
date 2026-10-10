@@ -117,8 +117,8 @@ Standing preferences learned in earlier sessions. Update this section when they 
   Overnight stays: don't promote or discourage wild camping; captions advise checking
   locations, respecting no-overnight signs, and asking landowners if unsure.
   Possible future Moby Mountain reselling: say nothing until the owner confirms.
-- Default deliverable is a 1080x1920 Instagram Reel with natural sound only; the owner
-  adds trending audio in Instagram. Default CTA "Follow for more". Show TentBox and Moby
+- Default deliverable is a 1080x1920 Instagram Reel with a royalty-free music bed over the
+  natural sound (see Scheduling); the owner may supply his own track instead. Default CTA "Follow for more". Show TentBox and Moby
   branding as filmed and never imply a partnership.
 - Clips without narration: tell the story with on-screen text (Anton headlines,
   Caveat script, tent orange #ff6b1f, warm white #fff8ee) in the top safe zone.
@@ -172,8 +172,11 @@ Standing preferences learned in earlier sessions. Update this section when they 
   It returns downloads as base64 in the chat, so fetch media via the public link instead.
 - Scheduling (Metricool brand "Base & Beyond", blogId 6984884, Europe/London): post every
   reel to Instagram, Facebook and TikTok unless told otherwise, as REEL, with the caption,
-  a first comment and max 5 hashtags. Default `autoPublish: false` so the owner gets a phone
-  reminder and adds trending audio in the app. TikTok needs a `tiktokData.title`; set
+  a first comment and max 5 hashtags. Default `autoPublish: true` (fully automatic). Audio
+  standard (owner, 10 Oct, "option A"): a royalty-free music bed baked into the video under
+  the natural sound (e.g. Mixkit Free License; save provenance in assets/music/). If the
+  owner's uploaded reel already has music, don't add more. Send the reel here for a check
+  before it goes into Metricool. TikTok needs a `tiktokData.title`; set
   `commercialContentOwnBrand: true`. Metricool can't read private Drive files: copy the
   finished reel into "Claude edits/Scheduled posts" (link-public) and pass
   `https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.

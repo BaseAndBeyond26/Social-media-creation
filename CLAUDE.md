@@ -176,7 +176,11 @@ Standing preferences learned in earlier sessions. Update this section when they 
   (owner, 10 Oct): I deliver reels with natural sound; the owner adds his own music, then
   uploads the finished reel to Drive "Finished Reels". Don't add music unless asked. Take that
   upload straight into Metricool with the pre-approved caption, first comment and hashtags
-  (no extra review round). TikTok needs a `tiktokData.title`; set
+  (no extra review round). One file goes to all three networks, so its music must be licensed
+  for TikTok as well as Meta: Edits/Instagram/TikTok in-app libraries are platform-bound;
+  use Mixkit/Pixabay (free) or an Epidemic Sound/Artlist business plan. Test case: reel-03
+  went to TikTok on 14 Oct with an Edits track; if TikTok muted it, record that here.
+  TikTok needs a `tiktokData.title`; set
   `commercialContentOwnBrand: true`. Metricool can't read private Drive files: copy the
   finished reel into "Claude edits/Scheduled posts" (link-public) and pass
   `https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.

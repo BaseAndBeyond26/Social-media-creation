@@ -170,3 +170,10 @@ Standing preferences learned in earlier sessions. Update this section when they 
   with write access to "Claude edits". Use it for listing, metadata, checks and (with the
   owner's OK) organising; `search_files` with `parentId = '<id>'` pages in small batches.
   It returns downloads as base64 in the chat, so fetch media via the public link instead.
+- Scheduling (Metricool brand "Base & Beyond", blogId 6984884, Europe/London): post every
+  reel to Instagram, Facebook and TikTok unless told otherwise, as REEL, with the caption,
+  a first comment and max 5 hashtags. Default `autoPublish: false` so the owner gets a phone
+  reminder and adds trending audio in the app. TikTok needs a `tiktokData.title`; set
+  `commercialContentOwnBrand: true`. Metricool can't read private Drive files: copy the
+  finished reel into "Claude edits/Scheduled posts" (link-public) and pass
+  `https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.

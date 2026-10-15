@@ -131,16 +131,17 @@ Standing preferences learned in earlier sessions. Update this section when they 
   HEVC .MOV, so extract frames with ffmpeg first) give many false positives, so always confirm by eye on a contact sheet.
 - Reel intro and type (owner, 15 Oct, from the reference post "The Fairfield Horseshoe"): the owner likes this as the intro for
   every reel (confirm once the Buttermere draft is approved), visible from frame 0 for about 4s: cream label (#f9f0df, dark tracked Montserrat caps) with the place, e.g.
-  "Lake District, Buttermere"; the brand name "Base & Beyond" large in EB Garamond (about 150px, white); a short 76x4
-  terracotta rule (#a66b55); the tagline "Rent • Roam • Return" in tracked Montserrat caps with dots
-  like the logo; and one short explainer line near the bottom (the hook line). Captions use EB Garamond 600 (this replaces Lora and
+  "Lake District, Buttermere"; the brand name "Base & Beyond" large in EB Garamond (about 150px, black as in the reference; the owner asked for black on the first slide, so open on big sky and cloud, not on dark hills); a short 76x4
+  terracotta rule (#a66b55); the tagline "Rent • Roam • Return" in black tracked Montserrat caps with dots
+  like the logo; and one short explainer line near the bottom (the hook line, white over grass or water). Captions use EB Garamond 600 (this replaces Lora and
   the reel-01 Anton/Caveat look for new reels unless the owner says otherwise). Never put a dark panel, glow or halo behind on-screen text (the owner asked for it to go); use a tight soft
-  shadow, place text over mid-tone areas (the lower third is usually water or grass), and grade the shot under the intro a
-  touch deeper instead. Fonts: `npm pack @fontsource/eb-garamond @fontsource/montserrat` into the scratchpad and copy the
+  shadow, place text over mid-tone areas (the lower third is usually water or grass), and keep the shot under the intro light.
+  Fonts: `npm pack @fontsource/eb-garamond @fontsource/montserrat` into the scratchpad and copy the
   latin woff2 files into the project's assets/fonts.
 - Brand-values reel `baseandbeyond_buttermere_reel` (Buttermere, 15 Oct): 0.4s cross-dissolves, scorch grass graded to
   saturation 0.8, end card on forest green #131d17 with the owner's white transparent logo (it already carries the name
-  and slogan) plus the handle. Never name the bay, no bookings, prices or dates, no contractions. The owner asked to keep
+  and slogan) and nothing else (the owner had the handle removed, 15 Oct). The sign clip plays to its natural end and cuts
+  straight to the next section, with no held still. Never name the bay, no bookings, prices or dates, no contractions. The owner asked to keep
   the "boy in the black cloak" (the person in black on the shore, clips 9653 to 9655) out of the reel.
 - Encoding gotchas: `alimiter` auto-levels back up unless `level=0`; `minterpolate=blend` leaves ghost streaks
   on fast handheld pans, so slow clips with plain frame repeat; grass-heavy 1080x1920 needs a two-pass share copy

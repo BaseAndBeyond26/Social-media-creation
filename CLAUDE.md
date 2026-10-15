@@ -126,6 +126,22 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - Check vehicle direction in every driving shot. Footage filmed while reversing
   should be played in reverse so the car moves forward.
 - Flag legible number plates and ask before publishing them.
+- Children: keep faces unrecognisable (owner, 15 Oct): only back views, far-away figures or crops with nobody
+  in frame; drop any shot or photo with a clear face. Haar cascades (`opencv-python-headless<5`; cv2 cannot read
+  HEVC .MOV, so extract frames with ffmpeg first) give many false positives, so always confirm by eye on a contact sheet.
+- Brand-values reel `baseandbeyond_buttermere_reel` (Buttermere, 15 Oct) house style: Lora 500 warm white,
+  104px hook/count and 70px closing beats in the upper-middle band (count caption in the lower third when the
+  subject fills the middle), soft dark glow behind text, 0.4s cross-dissolves, scorch grass graded to saturation
+  0.8, end card on forest green #131d17 with the owner's white transparent logo (it already carries the name and
+  slogan) plus the handle. Never name the bay, no bookings, prices or dates, no contractions.
+- Encoding gotchas: `alimiter` auto-levels back up unless `level=0`; `minterpolate=blend` leaves ghost streaks
+  on fast handheld pans, so slow clips with plain frame repeat; grass-heavy 1080x1920 needs a two-pass share copy
+  (`-b:v 4800k -maxrate 6500k -bufsize 10M`, about 26 MiB for 44s; CRF 22 gave 82 MiB). A 44s HyperFrames render
+  takes about 7 minutes.
+- Validators: `validate-plan` wants scenes that tile without overlap (dissolves are visual only) and the end card as
+  its own scene; photos stay out of `footage-ledger.json`.
+- The owner's logos live in the private Drive folder "Logo's" (transparent white PNG, plus white and dark JPEGs);
+  copy the PNG into the link-public "Claude edits/Scheduled posts" folder to download it.
 - The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
   for a 30s reel) and check its size before sending; raise the CRF if it's over (reel-03,
   40s of detailed landscape, needed CRF 24 for 27.6 MB; the 52s v3 needed CRF 25 for 28.4 MiB).

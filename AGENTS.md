@@ -151,6 +151,10 @@ Standing preferences learned in earlier sessions. Update this section when they 
   its own scene; photos stay out of `footage-ledger.json`.
 - The owner's logos live in the private Drive folder "Logo's" (transparent white PNG, plus white and dark JPEGs);
   copy the PNG into the link-public "Claude edits/Scheduled posts" folder to download it.
+  The dark transparent logo PNG (2481x2481 canvas, content 2085x1172, dark green-black #172118 with the orange tent) was sent
+  in chat on 18 Oct, not saved in Drive, so ask for it again (or for a copy in "Logo's") if it is missing; crop it to its alpha
+  bounding box. Use the dark logo over sky or light footage and the white logo on the dark end card. Buttermere v7 opening: the
+  dark logo lockup replaced the typed title, rule and tagline (it already carries all three), under the cream place label.
 - The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
   for a 30s reel) and check its size before sending; raise the CRF if it's over (reel-03,
   40s of detailed landscape, needed CRF 24 for 27.6 MB; the 52s v3 needed CRF 25 for 28.4 MiB).

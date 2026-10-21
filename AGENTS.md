@@ -143,6 +143,11 @@ Standing preferences learned in earlier sessions. Update this section when they 
   and slogan) and nothing else (the owner had the handle removed, 15 Oct). The sign clip plays to its natural end and cuts
   straight to the next section, with no held still. Never name the bay, no bookings, prices or dates, no contractions. The owner asked to keep
   the "boy in the black cloak" (the person in black on the shore, clips 9653 to 9655) out of the reel.
+- Voiceovers (owner, 20 Oct): when he sends a recording, transcribe it locally (`--no-filler-prompt`), retime the picture to his words
+  (sign on "A clear sign", scorch marks as the sign clip ends), trim dead lead-in, and open any extra beat as silence inside one of his own pauses;
+  never cut or reorder what he said. Level the voice to about -16 LUFS measured in STEREO (a mono voice measures 3 LU lower), bed about -32 LUFS.
+  He adds his own flowing captions, so remove on-screen captions and any text in the lower and middle frame; keep only the branding. Send a voiceover-only
+  copy (no wind bed) for his music, plus one with the natural bed.
 - Encoding gotchas: `alimiter` auto-levels back up unless `level=0`; `minterpolate=blend` leaves ghost streaks
   on fast handheld pans, so slow clips with plain frame repeat; grass-heavy 1080x1920 needs a two-pass share copy
   (`-b:v 4800k -maxrate 6500k -bufsize 10M`, about 26 MiB for 44s; CRF 22 gave 82 MiB). A 44s HyperFrames render

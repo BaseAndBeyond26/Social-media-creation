@@ -212,8 +212,19 @@ Standing preferences learned in earlier sessions. Update this section when they 
   upload straight into Metricool with the pre-approved caption, first comment and hashtags
   (no extra review round). One file goes to all three networks, so its music must be licensed
   for TikTok as well as Meta: Edits/Instagram/TikTok in-app libraries are platform-bound;
-  use Mixkit/Pixabay (free) or an Epidemic Sound/Artlist business plan. Test case: reel-03
-  went to TikTok on 14 Oct with an Edits track; if TikTok muted it, record that here.
+  use Mixkit/Pixabay (free) or an Epidemic Sound/Artlist business plan. Test result (owner, 21 Oct): the Edits track on reel-03
+  kept its sound on TikTok. Even so, the standing rule (owner, 21 Oct) is that TikTok is ALWAYS its own scheduled post: Instagram and
+  Facebook share his file with the music he picked in Edits (platform-bound); the TikTok post uses the same video and captions with a
+  royalty-free track I pick to mimic his. Method: download his finished file from the link-public staging copy, check his voice is
+  the same as my voiceover-only audio (FFT cross-correlation, lag 0 and gain about 1 means I can reuse my clean VO), keep his video
+  stream, and mix my VO with the track (music about -17 LUFS before 1.5:1 ducking, total about -15.6 LUFS, peak under -1.5 dBFS),
+  re-encode two-pass 5200k (about 26.5 MiB, under the 30 MiB send limit). Rank tracks by matching the music recovered from his mix
+  (his mix minus my VO): tempo, octave-band balance, activity and steadiness. Mixkit (mixkit.co, reachable; Pixabay returns 403 here) Stock
+  Music Free License, read at https://mixkit.co/license/modal/musicFree/ on 21 Oct: commercial use and social media posts allowed, no
+  attribution, no remixing or registering with rights-management (a claim can still happen: forward it to team@mixkit.co).
+  Reel "Buttermere Fires" TikTok track: Zanarkand Forest by Alejandro Magana (Mixkit, Ambient). I cannot host a video publicly myself,
+  so he saves my TikTok file to Drive "Finished Reels" and I copy it into "Scheduled posts". Best times (Metricool, 21 Oct): weekday evening
+  around 18:30 London is a good slot for Instagram and TikTok; Facebook peaks late morning.
   TikTok needs a `tiktokData.title`; set
   `commercialContentOwnBrand: true`. Metricool can't read private Drive files: copy the
   finished reel into "Claude edits/Scheduled posts" (link-public) and pass

@@ -218,3 +218,7 @@ Standing preferences learned in earlier sessions. Update this section when they 
   `commercialContentOwnBrand: true`. Metricool can't read private Drive files: copy the
   finished reel into "Claude edits/Scheduled posts" (link-public) and pass
   `https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.
+  Tidy-up (owner, 21 Oct): once a post shows PUBLISHED in Metricool (it keeps its own copy of the media on static.metricool.com) and the
+  original sits in "Finished Reels", trash the staging copies in "Scheduled posts" (trash only, never permanent delete) and any
+  logo copies there; keep the folder itself, "Finished Reels", "Logo's" and his "Reel - ..." archive folders. Check getScheduledPosts for
+  anything still pending before trashing.

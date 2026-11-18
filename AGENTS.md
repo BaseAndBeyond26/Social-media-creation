@@ -163,6 +163,13 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
   for a 30s reel) and check its size before sending; raise the CRF if it's over (reel-03,
   40s of detailed landscape, needed CRF 24 for 27.6 MB; the 52s v3 needed CRF 25 for 28.4 MiB).
+- Style guide v2 (Drive "Preferred styles" > "Base & Beyond - Social Style Guide", 9 Nov) supersedes the Garamond intro above: one static title
+  in Cormorant Garamond italic 700, hunter green #9DA487, plus an optional Montserrat SemiBold spaced-caps line in khaki #B6B279 with round-dot
+  separators, lower third. Sage/khaki vanish on wood, grass and glass, so a very soft lower-third grade (no edge, no glow) sits under the text.
+  Still-photo callouts (Cheshire Leisure reel, 18 Nov): thin warm-white lines leave the object at 45 degrees, turn vertical and end in a thumbnail
+  cropped to the product only; strip any UI wording (counters, arrows, watermarks) but keep the product's own branding; keep lines off logos.
+  Build pattern: ffmpeg `scripts/build-base.py` for the cut (HEVC .MOV works), HyperFrames only for text and callouts. Moby "base in the
+  Lake District" line was approved by the owner on 18 Nov. `npm ci` needs `ONNXRUNTIME_NODE_INSTALL_CUDA=skip` here.
 - Make the first frame meaningful: hook text must be visible at 0.0s.
 - Check every frame of an end-card build, not just the last one: panels and boxes
   must animate in with their text. Phone footage in shade often needs a gentle lift

@@ -163,13 +163,28 @@ Standing preferences learned in earlier sessions. Update this section when they 
 - The send-file tool limit is 30 MiB. Send a share copy encoded at CRF 22 (about 25 MiB
   for a 30s reel) and check its size before sending; raise the CRF if it's over (reel-03,
   40s of detailed landscape, needed CRF 24 for 27.6 MB; the 52s v3 needed CRF 25 for 28.4 MiB).
-- Style guide v2 (Drive "Preferred styles" > "Base & Beyond - Social Style Guide", 9 Nov) supersedes the Garamond intro above: one static title
-  in Cormorant Garamond italic 700, hunter green #9DA487, plus an optional Montserrat SemiBold spaced-caps line in khaki #B6B279 with round-dot
-  separators, lower third. Sage/khaki vanish on wood, grass and glass, so a very soft lower-third grade (no edge, no glow) sits under the text.
-  Still-photo callouts (Cheshire Leisure reel, 18 Nov): thin warm-white lines leave the object at 45 degrees, turn vertical and end in a thumbnail
-  cropped to the product only; strip any UI wording (counters, arrows, watermarks) but keep the product's own branding; keep lines off logos.
-  Build pattern: ffmpeg `scripts/build-base.py` for the cut (HEVC .MOV works), HyperFrames only for text and callouts. Moby "base in the
-  Lake District" line was approved by the owner on 18 Nov. `npm ci` needs `ONNXRUNTIME_NODE_INSTALL_CUDA=skip` here.
+- Style guide v2 (Drive "Preferred styles" > "Base & Beyond - Social Style Guide", 9 Nov) is the current look and supersedes the Garamond intro
+  above. Text is static (fade only), lower third, sage #9DA487 for titles and khaki #B6B279 for the small Montserrat SemiBold spaced-caps line with
+  round-dot or en-dash separators. The owner disliked Cormorant Garamond italic (18 Nov) and chose Jost 400 (npm @fontsource/jost): spaced
+  capitals for opening titles, sentence case for longer closing lines. Opening used: "BASE & BEYOND" / "FLEET EXPANSION" stacked, then
+  "- TENT COLLECTION -". Closing used: sentence, gap, "Rent | Roam | Return" (sage, slightly larger), then the khaki line; the colour no-tagline
+  logo sits up in the sky on the last clip. Sage/khaki vanish on wood, grass and glass, so a very soft lower-third grade (no edge, no glow) sits
+  under the text. Avoid "launch/launching" (too familiar) and needy CTAs ("follow to be the first to know"); use "Follow the journey" or nothing.
+- Logos: Drive "Logo's" > "Logo Pack - Sage Green" (link-public) has PNGs per variant; 02-No-Tagline > Colour_2048 is transparent, dark green-black with
+  a sage tent, so use it over light sky or cream, never over dark foliage (the white variant works there). Crop to the alpha bounding box.
+- Still-photo callouts (Cheshire Leisure reel, 18-21 Nov): thin warm-white lines leave the object at 45 degrees, turn vertical, draw on over 0.5s,
+  and end in a thumbnail cropped to the product only; each thumbnail then grows (x1.45-1.6, about the point its line meets) and settles back as the
+  next arrives. Strip UI wording (counters, arrows, watermarks) but keep the product's own branding; keep lines off logos and faces. HyperFrames
+  gotcha: `pathLength=1` with strokeDashoffset renders the line already drawn; set `strokeDasharray` to `getTotalLength()` and tween the offset.
+  Build pattern: ffmpeg `scripts/build-base.py` for the cut (HEVC .MOV works) and HyperFrames only for text and callouts. preflight wants the root
+  without data-start when the video has one, lint wants it on the root; follow preflight, the render works. `npm ci` needs
+  `ONNXRUNTIME_NODE_INSTALL_CUDA=skip` here. Photos: fit full width and extend the sky/ground edge rows (not a mirrored blur) into the margins.
+- Cheshire Leisure reel posted 21 Nov (IG, FB, TikTok). Owner override that day: when he says to avoid extra Metricool allowance, schedule ONE post
+  with his Edits-music file to all three networks instead of a separate TikTok post (Metricool then split it into three posts itself), and check TikTok
+  music survived. Caption rules he set: no heart emoji or "collection day", no Bassenthwaite Lake, hashtags #RoofTentHire #LakeDistrict #ExploreTheLakes
+  #MobyMountain #BaseAndBeyond, tag @cheshireleisureltd (Cheshire Leisure staff appear on camera), "Adventures start in Spring 2027" is fine. His Drive
+  upload name: "Tent pickup - Cheshire Leisure Nov.26". After scheduling, set a send_later check about 20 minutes after the slot: getScheduledPosts
+  shows PUBLISHED with public URLs, then trash the staging copy.
 - Make the first frame meaningful: hook text must be visible at 0.0s.
 - Check every frame of an end-card build, not just the last one: panels and boxes
   must animate in with their text. Phone footage in shade often needs a gentle lift
